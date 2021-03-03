@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_tong_quan"
+            android:icon="@drawable/ic_tong_quan"
+            android:title="Tổng quan" />
+        <item
+            android:id="@+id/nav_hang_hoa"
+            android:icon="@drawable/ic_hang_hoa"
+            android:title="Hàng hóa" />
+        <item
+            android:id="@+id/nav_kiem_kho"
+            android:icon="@drawable/ic_kiem_kho"
+            android:title="Kiểm kho" />
+
+
+    </group>
+
+    <group android:checkableBehavior="none">
+        <menu>
+            <item
+                android:id="@+id/nav_dat_hang"
+                android:icon="@drawable/ic_dat_hang"
+                android:title="Đặt hàng" />
+            <item
+                android:id="@+id/nav_hoa_don"
+                android:icon="@drawable/ic_hoa_don"
+                android:title="Hóa đơn" />
+            <item
+                android:id="@+id/nav_van_don"
+                android:icon="@drawable/ic_van_don"
+                android:title="Vận đơn" />
+            <item
+                android:id="@+id/nav_tra_hang"
+                android:icon="@drawable/ic_tra_hang"
+                android:title="Trả hàng" />
+            <item
+                android:id="@+id/nav_nhap_hang"
+                android:icon="@drawable/ic_nhap_hang"
+                android:title="Nhập hàng" />
+            <item
+                android:id="@+id/nav_tra_hang_nhap"
+                android:icon="@drawable/ic_tra_hang_nhap"
+                android:title="Trả hàng nhập" />
+            <item
+                android:id="@+id/nav_xuat_huy"
+                android:icon="@drawable/ic_xuat_huy"
+                android:title="Xuất hàng" />
+        </menu>
+
+
+    </group>
+
+    <group android:checkableBehavior="none">
+        <menu>
+            <item
+                android:id="@+id/nav_khach_hang"
+                android:icon="@drawable/ic_khach_hang"
+                android:title="Khách hàng" />
+            <item
+                android:id="@+id/nav_nha_cung_cap"
+                android:icon="@drawable/ic_nha_cung_cap"
+                android:title="Nhà cung cấp" />
+            <item
+                android:id="@+id/nav_doi_tac_giao_hang"
+                android:icon="@drawable/ic_doi_tac_giao_hang"
+                android:title="Đối tác giao hàng" />
+
+        </menu>
+
+
+    </group>
+
+    <group>
+        <menu>
+            <item
+                android:id="@+id/nav_so_quy"
+                android:icon="@drawable/ic_so_quy"
+                android:title="Sổ quỹ" />
+            <item
+                android:id="@+id/nav_bao_cao"
+                android:icon="@drawable/ic_bao_cao"
+                android:title="Báo cáo" />
+        </menu>
+    </group>
+    <group>
+        <menu>
+            <item
+                android:id="@+id/nav_cai_dat"
+                android:icon="@drawable/ic_cai_dat"
+                android:title="Cài đặt" />
+            <item
+                android:id="@+id/nav_goi"
+                android:icon="@drawable/ic_goi"
+                android:title="Gọi 1900 6522" />
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_chat"
+                android:title="Chat với kiotviet" />
+            <item
+                android:id="@+id/nav_hop_thu"
+                android:icon="@drawable/ic_hop_thu"
+                android:title="Hộp thư" />
+            <item
+                android:id="@+id/nav_dieu_khoan"
+                android:icon="@drawable/ic_dieu_khoan"
+                android:title="Điều khoản" />
+            <item
+                android:id="@+id/nav_dang_xuat"
+                android:icon="@drawable/ic_dang_xuat"
+                android:title="Đăng xuất" />
+
+        </menu>
+    </group>
+
+
+</menu>
